@@ -2,7 +2,7 @@
 <ul>
 <li>yarn</li>
 <li>yarn create vite <b>nome do projeto</b></li>
-</ul>
+<ul>
 
 # Baixar e configurar eslint
 <ul>
