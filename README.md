@@ -1,24 +1,24 @@
 # Inicializar projeto
-<ol>
-<ul>yarn<ul/>
-<ul>yarn create vite <b>nome do projeto<b/><ul/>
-<ol/>
+<ul>
+<li>yarn</li>
+<li>yarn create vite <b>nome do projeto</b></li>
+</ul>
 
 # Baixar e configurar eslint
-<ol>
+<ul>
 <ul>npm init @eslint/config<ul/>
-<ul>y<ul/>
-<ul>· style<ul/>
-<ul>· esm  ----- JavaScript<ul/>
-<ul> · react<ul/>
-<ul>yes<ul/>
-<ul>· browser <ul/>
-<ul>· prompt ---- awser<ul/>
-<ul>· Json<ul/>
-<ul>· tab<ul/>
-<ul>sing<ul/>
-<ul>depende<ul/>
-<ul>yes<ul/>
-<ul>yes<ul/>
-<ul>· npm<ul/>
- <ol/>
+<li>y</li>
+<li>· style</li>
+<li>· esm  ----- JavaScript</li>
+<li> · react</li>
+<li>yes</li>
+<li>· browser </li>
+<li>· prompt ---- awser</li>
+<li>· Json</li>
+<li>· tab</li>
+<li>sing</li>
+<li>depende</li>
+<li>yes</li>
+<li>yes</li>
+<li>· npm</li>
+ </ul>
