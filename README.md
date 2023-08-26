@@ -22,4 +22,4 @@
 <li>yes</li>
 <li>· npm</li>
  <ul>
- O arquivo <a href="https://github.com/Feer1999/Monitoramento/blob/main/projeto/src/main.tsx">main.tsx</a> main carrega todos os componentes, então se excluir algum arquivo, retire a importação dos respectivos
+ <p>O arquivo <a href="https://github.com/Feer1999/Monitoramento/blob/main/projeto/src/main.tsx">main.tsx</a> main carrega todos os componentes, então se excluir algum arquivo, retire a importação dos respectivos</p>
