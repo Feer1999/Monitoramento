@@ -1,10 +1,10 @@
-# Inicializar projeto
+<h1>Inicializar projeto</h1>
 <ul>
 <li>yarn</li>
 <li>yarn create vite <b>nome do projeto</b></li>
 <ul>
 
-# Baixar e configurar eslint
+<h1>Baixar e configurar eslint</h1>
 <ul>
 <ul>npm init @eslint/config<ul/>
 <li>y</li>
