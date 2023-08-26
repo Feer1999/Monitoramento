@@ -23,6 +23,6 @@
 <li>· npm</li>
  <ul>
   <p>Para rodar o projeto no localhost, rode o comando <b>npm install</b> e o comando <b>yarn dev</b></p>
- <p>O arquivo <a href="https://github.com/Feer1999/Monitoramento/blob/main/projeto/src/main.tsx">main.tsx</a> carrega todos os componentes, então se excluir algum arquivo, retire a importação dos respectivos no caso deste main ele carrega o arquivo <a href="https://github.com/Feer1999/Monitoramento/blob/main/projeto/src/App.tsx">App.tsx</a></p>
+ <p>O arquivo <a href="https://github.com/Feer1999/Monitoramento/blob/main/projeto/src/main.tsx">main.tsx</a> carrega todos os componentes, então se excluir algum arquivo, retire a importação dos respectivos. No caso deste main ele carrega o arquivo <a href="https://github.com/Feer1999/Monitoramento/blob/main/projeto/src/App.tsx">App.tsx</a></p>
  <p>O este arquivo <a href="https://github.com/Feer1999/Monitoramento/blob/main/projeto/src/App.tsx">App.tsx</a> importa a função Home que contém o projeto que abrirá no localhost
  <a href="https://github.com/Feer1999/Monitoramento/blob/main/projeto/src/components/home/index.tsx">index.tsx</a></p>
