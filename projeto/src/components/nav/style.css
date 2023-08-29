@@ -1,0 +1,166 @@
+/* Estilos para a barra de navegação */
+.nav {
+    width: 100%;
+    height: 65px;
+    position: fixed;
+    background-color: #333;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo a {
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 10px;
+  }
+  
+  .navlinks {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: flex-end; /* Alinha os links à direita */
+  }
+  
+  .navlinks li {
+    margin-left: 20px;
+  }
+  
+  .navlinks a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .navlinks a:hover {
+    color: #00e676;
+  }
+  
+  /* Estilos para o ícone do menu em telas menores */
+  .navTrigger {
+    display: none;
+  }
+  
+  @media (max-width: 768px) {
+    /* ... (mantenha os estilos anteriores para telas menores) ... */
+  }
+  
+  
+ /* Estilos para a seção principal */
+.home {
+    background-color: #f5f5f5;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  /* Estilos para a div com conteúdo */
+  .row {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .row h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .row p {
+    font-size: 16px;
+    line-height: 1.5; /* Espaçamento entre linhas */
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para a barra de navegação */
+/* ... (mantenha os estilos anteriores) ... */
+
+/* Estilos para o rodapé */
+.main_footer {
+    background-color: #333;
+    color: white;
+    padding: 40px 0;
+  }
+  
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .colfooter {
+    flex: 1;
+    margin: 0 20px;
+  }
+  
+  .colfooter h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .colfooter ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .colfooter ul li {
+    margin-bottom: 10px;
+  }
+  
+  .colfooter a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  /* Estilos para botões de redes sociais */
+  .botao {
+    display: inline-block;
+    margin-right: 10px;
+    border: 1px solid white;
+    padding: 8px;
+    border-radius: 50%;
+  }
+  
+  .botao img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .clear {
+    clear: both;
+  }
+  
+  /* Estilos para o texto do rodapé */
+  .main_footer_copy {
+    margin-top: 30px;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .m-b-footer {
+    margin-bottom: 10px;
+  }
+  
+  .by {
+    font-size: 14px;
+  }
+  
+  .icon {
+    margin-right: 5px;
+  }
+  
