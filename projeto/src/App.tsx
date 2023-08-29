@@ -1,9 +1,14 @@
-import { Home } from "./components/home";
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { Home } from './components/home';
 
 export function App() {
     return (
-      <div className="app-content">
-        <Home />
-      </div>
+        <BrowserRouter>
+            <div className="app-content">
+                <Routes>
+                    <Route path="/" element={<Home />} />
+                </Routes>
+            </div>
+        </BrowserRouter>
     );
 }

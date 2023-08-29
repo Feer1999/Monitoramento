@@ -1,28 +1,35 @@
 import * as styles from './styles';
-
 import { PersonCheckFill, FileEarmarkLockFill } from 'react-bootstrap-icons';
+import { Container, Login, InputGroup, FormContainer} from "./styles"
+
 
 export function Home() {
-    
-    
+    const redirectToRecordPage = () => {
+        window.location.href = '/src/components/record/index.html'; 
+    };
     return (
-        <div style={styles.loginContainer}>
-            <div style={styles.loginForm}>
-                <div style={styles.inputGroup}>
+        <Container>
+            <Login>
+                <InputGroup>
                     <PersonCheckFill style={styles.icon} />
                     <input type="text" className="form-control" placeholder="Username" />
-                </div>
-                <div style={styles.inputGroup}>
+                </InputGroup>
+                <InputGroup>
                     <FileEarmarkLockFill style={styles.icon} />
                     <input type="password" className="form-control" placeholder="Password" />
-                </div>
-              <br/>
-                <div style={styles.formContainer}>
-                <div style={styles.inputGroup}>
-                <button type="button" className="btn btn-primary btn-block">Login</button>
-                </div>
-                </div>
-            </div>
-        </div>
+                </InputGroup>
+                <br />
+                <FormContainer>
+                    <button type="button" className="btn btn-primary btn-block">
+                        Login
+                    </button>
+                </FormContainer>
+                <FormContainer>
+                <button type="button" onClick={redirectToRecordPage}>
+                        Registrar
+                    </button>
+                </FormContainer>
+            </Login>
+        </Container>
     );
 }
